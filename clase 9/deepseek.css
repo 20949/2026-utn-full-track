@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.seccion-chat {
+    min-height: 100dvh;
+    padding: 48px;
+    background-color: aliceblue;
+
+}
+
+.titulo-principal {
+    text-align: center;
+}
+
+.content{
+    background-color: white;
+    min-height: 90dvh;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.chat-box{
+    position: fixed;
+    width: 700px;
+    background-color: beige;
+    bottom: 20px;
+    left: 280px;
+}
+.textarea-chat{
+    width: 100%;
+    display: block;
+}
+.btn-container{
+    display: flex;
+    gap: 16px;
+}
+.btn-adjuntar{
+    margin-left: auto;
+}

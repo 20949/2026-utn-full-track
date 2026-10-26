@@ -74,3 +74,9 @@ Box modeling
 - inline ; se pueden alinear ,  ocupan solo su contenido
 - Block : no se alinean ocupan todo el bloque del h1 al h6 son bloques ,se puede modificar 
 - inline-block; se pueden alinear si el ancho  restante lo permite 
+
+@media screen and (max-width:600px){}
+body{
+    background-color: red;
+    
+}
